@@ -1,6 +1,6 @@
 # __*This readme file is to note all the syntaxes(of Mark Down Language) learnt in Bootcamp:*__
 
-## Headings:
+## 1. Headings:
 - hash is used for headings.
 - Single Hash is the highest heading size and as hashes increases, font size decreases (till 6 hashes).
 - Highest two sizes have in-built horizontal rule seperator.
@@ -11,7 +11,7 @@
 ##### Fifth - 5
 ###### Least font size - 6
 
-## Order:
+## 2. Order:
 
 - Hyphen(-) or Plus(+) is used for unnumbered bullet points.
 - like this.
@@ -50,23 +50,23 @@
       console.log(name);
   ```
 
-## links:
+## 3. links:
 
 - syntax: [text](source link)
 
   Like this - [GitHub](https://github.com)
 
-## Tables and Checkboxes:
+## 4. Tables and Checkboxes:
 
 - Pipes(|) and Hyphens(-) are used to create tables.
 
 ### Like this:
 
-| Name    | Age | City        |
-|:------- |:---:| -----------:|
-| Alice   | 30  | New York    |
-| Bob     | 25  | Los Angeles |
-| Charlie | 35  | Chicago     |
+|    Name    | Age |  Vote-Right |
+|:---------- |:---:| -----------:|
+|  VedaVyas  | 18  |     Yes     |
+| Pravallika | 18  |     Yes     |
+|  Avinash   | 17  |     No      |
 
 - -[] for Unchecked boxes and -[x] for checked boxes.
 
