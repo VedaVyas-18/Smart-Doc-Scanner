@@ -1,5 +1,5 @@
-var a = 20;
-var b = 30;
+let a = 20;
+let b = 30;
 const sum = (a, b) => {
     return a + b;      //returns sum of a and b.
 }
@@ -11,13 +11,13 @@ console.log(Object.keys(x)); //displays all the keys in obj x
 console.log(Object.values(x)); //displays all the values in obj x
 console.log(x["name"]);
 console.log(x.age);
-var {name,age} = x; //Object destructor
+let {name,age} = x; //Object destructor
 console.log(x);
-var arr = ["Apple", "Mango", "Orange"];
+let arr = ["Apple", "Mango", "Orange"];
 console.log(arr[0]); //Displays Apple(index 0).
-var newarr = arr.slice(0, 2); //Copies and adds first two elements of arr to newarr
+let newarr = arr.slice(0, 2); //Copies and adds first two elements of arr to newarr
 console.log(newarr);
-arr.unshift("StrawBerry"); //adds element to the first.
+let.unshift("StrawBerry"); //adds element to the first.
 newarr.shift(); //deletes first element.
 console.log(arr);
 console.log(newarr);
